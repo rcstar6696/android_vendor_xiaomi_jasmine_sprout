@@ -89,8 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/jasmine/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/jasmine/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/xiaomi/jasmine/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
-    vendor/xiaomi/jasmine/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/jasmine/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/xiaomi/jasmine/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/xiaomi/jasmine/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -1443,8 +1441,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib/libsse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsse.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalfeature.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
@@ -1461,6 +1461,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_HD.so \
@@ -1477,6 +1478,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
@@ -1697,10 +1700,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib64/libsse.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsse.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
@@ -1725,11 +1730,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
-    vendor/xiaomi/jasmine/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
-    vendor/xiaomi/jasmine/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@1.0.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
