@@ -937,6 +937,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/xiaomi/jasmine/proprietary/vendor/lib/libicuuc-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc-v27.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
     vendor/xiaomi/jasmine/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
